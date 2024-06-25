@@ -1,0 +1,34 @@
+{
+  "productos": [
+    {
+      "id": "1f0a",
+      "nombre": "Laptop Lenovo Ideapad Slim 3 15.6\" Intel Core i5 8 GB RAM 512 GB SSD Azul",
+      "precio": "10999",
+      "imagen": "https://cdn1.coppel.com/images/catalog/pm/2236633-1.jpg"
+    },
+    {
+      "id": "5046",
+      "nombre": "Laptop HP 14-em0002la RAM 8GB SSD 512GB AMD Ryzen 5 W11 14\" Azul",
+      "precio": "12999",
+      "imagen": "https://officemax.vtexassets.com/arquivos/ids/1374129-1800-1800?v=638223583204530000&width=1800&height=1800&aspect=true"
+    },
+    {
+      "id": "6376",
+      "nombre": "HP Portátil Full HD de 15,6 Pulgadas (1920 x 1080), Intel Core i5-1135G7, 8 GB RAM, 256 GB SSD, Windows 10 Home, Color Plateado Natural 15-dy2093",
+      "precio": "8958",
+      "imagen": "https://m.media-amazon.com/images/I/816uW9q6BKS._AC_SX450_.jpg"
+    },
+    {
+      "id": "6001",
+      "nombre": "Laptop Dell Vostro 3400 14P Intel Core i3-1135G7 8GB RAM 1TB DD",
+      "precio": "11980",
+      "imagen": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00088411638515l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+    },
+    {
+      "id": "5caa",
+      "nombre": "Lenovo Ideapad Slim 5 Laptop 14\" Full HD AMD Ryzen 5 8GB 512GB SSD",
+      "precio": "8999",
+      "imagen": "https://www.costco.com.mx/medias/sys_master/products/h46/h81/188081225564190.webp"
+    }
+  ]
+}

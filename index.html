@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge AluraGeek’</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecera">
+        <img src="./img/image.png" alt="AluraGeek’" class="imagen_cabecera" />
+    </header>
+    <main>
+        <div class="contenedor">
+            <section class="formulario">
+                <h3>Agregar producto</h3>
+                <form data-formulario>
+                    <input type="text" placeholder="Nombre..." class="entrada_texto" data-nombre required >
+                    <input type="number" placeholder="Precio..." class="entrada_texto" data-precio required >
+                    <input type="text" placeholder="Imagen..." class="entrada_texto" data-imagen required >
+                    <input type="submit" class="boton" value="Enviar">
+                    <input type="button" class="boton_limpiar" value="Limpiar">
+
+                </form>
+            </section>
+            <div class="productos" data-producto></section>
+        </div>
+    </main>
+
+
+    <footer>
+        <h3>AluraGeek</h3>
+        <h4>Desarrollado por Néstor Meneses</h4>
+        <h6>Alura Latam 2024</h6>
+    </footer>
+<script src="./js/mostrarProductos.js" type="module"></script>
+<script src="./js/crearProducto.js" type="module"></script>
+</body>
+
+</html>

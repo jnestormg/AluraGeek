@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: "Press Start 2P", system-ui;
+
+}
+
+/*
+.cabecera {
+    background: #5300C8;
+    width: 100%;
+    height: 96px;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+*/
+.imagen_cabecera {
+    width: 100%;
+}
+
+.contenedor {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.entrada_texto {
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #03318C;
+    border-radius: 10px;
+    width: 392px;
+    height: 40px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    color: #03318C;
+
+}
+
+.boton {
+    background: #03318C;
+    color: white;
+    border-radius: 5px;
+    width: 188px;
+    height: 45px;
+    border: 0;
+    padding: 10px;
+    font-family: "IBM Plex Mono", monospace;
+
+}
+.boton:hover{
+    transition: 2s;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 2px solid #03318C;
+    color: #03318C;
+}
+
+.boton_limpiar {
+    background: white;
+    color: #03318C;
+    border-radius: 5px;
+    width: 188px;
+    height: 45px;
+    border: 2px solid #03318C;
+    font-family: "IBM Plex Mono", monospace;
+
+}
+.boton_limpiar:hover{
+    transition: 2s;
+    background-color: #03318C;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+}
+.productos {
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ gap: 10px;
+ overflow-y: auto;
+ height: 400px;
+}
+
+.card {
+    background: #5D04D9;
+    color: #FFFFFF;
+    width: 200px;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.card .card-container--info {
+    font-size: 15px;
+    font-family: "IBM Plex Mono", monospace;
+    margin-left: 10px;
+
+}
+.card-container--value{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-top: 10px;
+
+}
+
+.card .imagen-producto {
+    width: 176px;
+    border: 3px solid black;
+    height: 174px;
+    margin: 7px;
+}
+
+footer{
+    width: 100%;
+    background: #5D04D9;
+    height: 90px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
